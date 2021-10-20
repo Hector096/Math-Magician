@@ -1,6 +1,6 @@
 # Math Magicians
 
-> Math Magicians
+> Math Magicians is a powerful SPA to handle calculations and maths operations.
 
 ---
 
@@ -13,7 +13,7 @@
 To get a local copy up and running follow these simple example steps.
 
 ```
-git clone https://github.com/MrBrN197/Math-Magicians.git
+git clone https://github.com/Hector096/Math-Magician.git
 ```
 
 and then run
@@ -41,7 +41,7 @@ npm run build
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Hector096/PokeApp/issues).
+Feel free to check the [issues page](https://github.com/Hector096/Math-Magician/issues).
 
 ## Show your support
 
