@@ -1,17 +1,17 @@
 import React from 'react';
 import { Navbar, Container, Nav } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { NavLink } from 'react-router-dom';
+import '../App.css';
 
 export default function Header() {
   return (
     <Navbar bg="dark" variant="dark">
       <Container className="p-3">
-        <Navbar.Brand href="/" className="h1">Math Magician</Navbar.Brand>
+        <NavLink to="/" className="h2 text-decoration-none text-light">Math Magician</NavLink>
         <Nav className="ms-auto">
-          <Link to="/" className="h5 me-4 text-decoration-none text-light">Home</Link>
-          <Link to="/calculator" className="h5 me-4 text-decoration-none text-secondary">Calculator</Link>
-          <Link to="/quote" className="h5 me-4 text-decoration-none text-secondary">Quote</Link>
+          <NavLink to="/" className="h5 me-4 link" activeClassName="link-active">Home</NavLink>
+          <NavLink to="calculator" className="h5 me-4 link" activeClassName="link-active">Calculator</NavLink>
+          <NavLink to="quote" className="h5 me-4 link" activeClassName="link-active">Quote</NavLink>
         </Nav>
       </Container>
     </Navbar>

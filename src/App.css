@@ -11,3 +11,17 @@
   align-items: center;
   justify-content: center;
 }
+
+.link {
+  text-decoration: none;
+  color: gray;
+}
+
+.link-active {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: whitesmoke;
+}
