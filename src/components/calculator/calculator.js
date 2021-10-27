@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './calculator.css';
-import calculate from '../logic/calculate';
+import calculate from '../../logic/calculate';
 
 export default function Calculator() {
   const [state, setState] = useState({ total: null, next: null, operation: null });
@@ -10,7 +10,7 @@ export default function Calculator() {
   };
 
   return (
-    <div className="container">
+    <div className="box">
       <div className="screen">
         {` ${
           state.total || state.operation || state.next
