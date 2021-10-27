@@ -4,6 +4,12 @@
 
 ---
 
+## Screenshots
+![screenshot](./assets/screenshot1.png)
+![screenshot](./assets/screenshot2.png)
+![screenshot](./assets/screenshot3.png)
+
+
 ## Built With
 
 - ReactJS
