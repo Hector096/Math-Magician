@@ -1,4 +1,5 @@
 import TestRenderer from 'react-test-renderer';
+import { BrowserRouter as Router } from 'react-router-dom';
 import Calculator from '../../components/calculator/calculator';
 import Header from '../../components/Header';
 import Home from '../../components/Home';
@@ -13,7 +14,11 @@ describe('test screenshots for all components', () => {
   });
 
   test('matches Header snapshot', () => {
-    const tree = TestRenderer.create(<Header />).toJSON();
+    const tree = TestRenderer.create(
+      <Router>
+        <Header />
+      </Router>,
+    ).toJSON();
 
     expect(tree).toMatchSnapshot();
   });
