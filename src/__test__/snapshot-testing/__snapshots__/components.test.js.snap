@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test screenshots for all components matches Calculator snapshot 1`] = `
+<div
+  className="box"
+>
+  <div
+    className="screen"
+  >
+     0
+  </div>
+  <div
+    className="buttons"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      AC
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      +/-
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      %
+    </button>
+    <button
+      className="orange"
+      onClick={[Function]}
+      type="button"
+    >
+      ÷
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      7
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      8
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      9
+    </button>
+    <button
+      className="orange"
+      onClick={[Function]}
+      type="button"
+    >
+      x
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      5
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      6
+    </button>
+    <button
+      className="orange"
+      onClick={[Function]}
+      type="button"
+    >
+      -
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="orange"
+      onClick={[Function]}
+      type="button"
+    >
+      +
+    </button>
+    <button
+      className="double"
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      .
+    </button>
+    <button
+      className="orange"
+      onClick={[Function]}
+      type="button"
+    >
+      =
+    </button>
+  </div>
+</div>
+`;
+
+exports[`test screenshots for all components matches Footer snapshot 1`] = `
+<div>
+  <div
+    className="bg-dark text-light p-3 footer text-center container-fluid"
+  >
+    ©
+    2021
+    - Math Magician by Hector - All Rights Reserved
+  </div>
+</div>
+`;
+
+exports[`test screenshots for all components matches Header snapshot 1`] = `
+<nav
+  className="navbar navbar-expand navbar-dark bg-dark"
+>
+  <div
+    className="p-3 container"
+  >
+    <a
+      aria-current="page"
+      className="h2 text-decoration-none text-light active"
+      href="/"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      Math Magician
+    </a>
+    <div
+      className="ms-auto navbar-nav"
+      onKeyDown={[Function]}
+    >
+      <a
+        aria-current="page"
+        className="h5 me-4 link link-active"
+        href="/"
+        onClick={[Function]}
+        style={Object {}}
+      >
+        Home
+      </a>
+      <a
+        aria-current={null}
+        className="h5 me-4 link"
+        href="/calculator"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+      <a
+        aria-current={null}
+        className="h5 me-4 link"
+        href="/quote"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`test screenshots for all components matches Home snapshot 1`] = `
+<div>
+  <h1
+    className="mt-5 text-center"
+  >
+    Welcome to Our page!
+  </h1>
+  <p
+    className="h4 p-5"
+  >
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium cum iste beatae eius repudiandae exercitationem in pariatur ratione delectus necessitatibus tempora nam culpa recusandae itaque odit quia consequuntur similique eveniet officiis, unde voluptatem autem quaerat? Molestiae magnam quos quis, quas, ex iure, pariatur fuga vel delectus autem voluptatibus laudantium temporibus unde possimus recusandae ut vitae. Nesciunt, natus cupiditate asperiores aspernatur reiciendis, iure repellat esse labore laudantium rerum quis accusamus quo voluptates beatae minima quasi corrupti voluptatibus! Similique delectus nihil nesciunt ducimus ea, quae nemo. Voluptas recusandae ipsam ipsum sapiente eius cumque nisi aliquid reiciendis harum iure sit soluta reprehenderit voluptatibus ducimus, provident.
+     
+    <br />
+    repellendus repellat? Consequuntur quia praesentium eaque maiores nisi repellat in dolorem, ea deserunt exercitationem debitis officiis animi non nemo voluptatibus id officia reiciendis, perferendis facilis? Totam nisi quo, nam laudantium nesciunt consequuntur aliquid, modi dolore in consectetur reiciendis, beatae pariatur fugiat fuga assumenda. In dolores quisquam, commodi reprehenderit recusandae eius quia perspiciatis magni? Provident eaque suscipit nesciunt alias natus, at error a libero, nobis ipsa voluptate
+  </p>
+</div>
+`;
+
+exports[`test screenshots for all components matches Quote snapshot 1`] = `
+<div
+  className="quote"
+>
+  <p
+    className="h2 text-center"
+  >
+    Mathematics is not about numbers, equations, computations,
+     
+    <br />
+    or algorithms: it is about understanding. -William Paul Thruston
+  </p>
+</div>
+`;
