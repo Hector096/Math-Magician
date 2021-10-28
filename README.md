@@ -29,6 +29,16 @@ npm i
 npm start
 ```
 
+To test
+```
+npm run test
+```
+
+To install React Test Renderer
+```
+npm i react-test-renderer
+```
+
 ## Installation
 
 to build a production version to `bulid` folder run
