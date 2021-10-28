@@ -1,4 +1,4 @@
-import operate from '../logic/operate';
+import operate from '../../logic/operate';
 
 describe('testing operations', () => {
   const operandOne = '5';
