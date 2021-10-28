@@ -38,4 +38,13 @@ describe('testing the calculate function ', () => {
 
     expect(result.total).toBe('1');
   });
+
+  test('test multipliction', () => {
+    let result = calculate(obj, '2');
+    result = calculate(result, 'x');
+    result = calculate(result, '7');
+    result = calculate(result, '=');
+
+    expect(result.total).toBe('14');
+  });
 });
