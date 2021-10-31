@@ -3,6 +3,8 @@
 > Math Magicians is a powerful SPA to handle calculations and maths operations.
 
 ---
+##Live Demo
+- [Link](https://hector-math-magicians.netlify.app)
 
 ## Screenshots
 ![screenshot](./assets/screenshot1.png)
